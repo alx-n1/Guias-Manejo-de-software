@@ -1,2 +1,2 @@
-# Gu-as-de-la-clase-de-Manejo-de-software
+# Guias-de-la-clase-de-Manejo-de-software
 Guías de Manejo de software 2024
