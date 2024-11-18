@@ -1,0 +1,72 @@
+*{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+h1{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1rem;
+    text-align: justify;
+}
+div{
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 480px)
+{
+    /*Estilos para moviles */
+    html{
+        font-size: 14px;
+    }
+    body{
+        background-color: #03A9F4;
+    }
+    div {
+        width: 95%;
+    }
+/*
+A partir de las reglas de estilo anteriores responda: ¿Qué tamaño en pixeles tendrán los h1 y los
+párrafos de la página en su diseño para Smartphone?
+
+h1: 28px
+p: 14px*/
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /*Estilos para tablets*/
+    html{
+        font-size: 15px;
+    }
+    body{
+        background-color: #FF9800;
+    }
+    div{
+        width: 85%;
+    }
+    
+}
+
+/* 
+A partir de las reglas de estilo anteriores responda: ¿Qué tamaño en pixeles tendrá el padding del div
+en su diseño para tablets?
+30px 
+*/
+@media screen and (min-width: 769px) {
+    /*Estilo para PC*/
+    html{
+        font-size: 16px;
+    }
+    body{
+        background-color: #E0E0E0;
+    }
+    div{
+        width: 75%;
+    }
+    
+}
+
